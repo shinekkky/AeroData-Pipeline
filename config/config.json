@@ -1,0 +1,18 @@
+{
+  "source": {
+    "type": "simulator",
+    "routes_file": "data/reference/routes_daily.json",
+    "days": 14,
+    "seed": 20260101,
+    "defect_rate": 0.06
+  },
+  "db": {
+    "dialect": "sqlite",
+    "path": "var/aerodata.db"
+  },
+  "reports_dir": "reports",
+  "delay_threshold_min": 15,
+  "early_threshold_min": 5,
+  "max_flight_duration_min": 1200,
+  "min_flight_duration_min": 30
+}

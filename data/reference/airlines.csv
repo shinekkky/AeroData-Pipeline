@@ -1,0 +1,55 @@
+airline_code,airline_name,airline_name_en,country,country_code
+CA,中国国际航空,Air China,中国,CN
+MU,中国东方航空,China Eastern Airlines,中国,CN
+CZ,中国南方航空,China Southern Airlines,中国,CN
+HU,海南航空,Hainan Airlines,中国,CN
+FM,上海航空,Shanghai Airlines,中国,CN
+ZH,深圳航空,Shenzhen Airlines,中国,CN
+MF,厦门航空,Xiamen Airlines,中国,CN
+SC,山东航空,Shandong Airlines,中国,CN
+3U,四川航空,Sichuan Airlines,中国,CN
+9C,春秋航空,Spring Airlines,中国,CN
+HO,吉祥航空,Juneyao Airlines,中国,CN
+8L,祥鹏航空,Lucky Air,中国,CN
+PN,西部航空,West Air,中国,CN
+JD,首都航空,Beijing Capital Airlines,中国,CN
+GX,北部湾航空,Guangxi Beibu Gulf Airlines,中国,CN
+EU,成都航空,Chengdu Airlines,中国,CN
+4L,中国中部国际航空,China Central Airlines,中国,CN
+CI,中华航空,China Airlines,中国台湾,TW
+BR,长荣航空,EVA Air,中国台湾,TW
+CX,国泰航空,Cathay Pacific,中国香港,HK
+HX,港龙航空,Dragonair,中国香港,HK
+UO,香港快运,Hong Kong Express,中国香港,HK
+SQ,新加坡航空,Singapore Airlines,新加坡,SG
+TR,酷航,Scoot,新加坡,SG
+3K,捷星亚洲,Jetstar Asia,新加坡,SG
+JT,捷虎航空,Tigerair,新加坡,SG
+MH,马来西亚航空,Malaysia Airlines,马来西亚,MY
+AK,亚洲航空,AirAsia,马来西亚,MY
+D7,亚洲航空X,AirAsia X,马来西亚,MY
+ID,巴迪航空,Batik Air Malaysia,马来西亚,MY
+TG,泰国国际航空,Thai Airways International,泰国,TH
+FD,泰国亚洲航空,Thai AirAsia,泰国,TH
+SL,泰狮航,Thai Lion Air,泰国,TH
+PG,曼谷航空,Bangkok Airways,泰国,TH
+WE,泰国微笑航空,Thai Smile Airways,泰国,TH
+VN,越南航空,Vietnam Airlines,越南,VN
+VJ,越捷航空,VietJet Air,越南,VN
+GA,印尼鹰航,Garuda Indonesia,印度尼西亚,ID
+IW,雄鹰航空,Wings Air,印度尼西亚,ID
+PR,菲律宾航空,Philippine Airlines,菲律宾,PH
+5J,宿务太平洋航空,Cebu Pacific,菲律宾,PH
+K6,柬埔寨吴哥航空,Cambodia Angkor Air,柬埔寨,KH
+QV,老挝航空,Lao Airlines,老挝,LA
+UB,缅甸国际航空,Myanmar Airways International,缅甸,MM
+8M,缅甸航空,Myanmar Airways,缅甸,MM
+BI,皇家文莱航空,Royal Brunei Airlines,文莱,BN
+KE,大韩航空,Korean Air,韩国,KR
+OZ,韩亚航空,Asiana Airlines,韩国,KR
+NH,全日空,All Nippon Airways,日本,JP
+JL,日本航空,Japan Airlines,日本,JP
+RM,尼泊尔航空,Nepal Airlines,尼泊尔,NP
+EK,阿联酋航空,Emirates,阿联酋,AE
+AF,法国航空,Air France,法国,FR
+UL,斯里兰卡航空,Air Lanka,斯里兰卡,LK

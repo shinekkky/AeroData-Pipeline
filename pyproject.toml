@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerodata-pipeline"
+version = "0.1.0"
+description = "航空数据治理与数仓分层 ETL 流水线（ODS / DWD / DWS + 数据质量规则）"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "PyMySQL>=1.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+aerodata = "aerodata.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aerodata*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

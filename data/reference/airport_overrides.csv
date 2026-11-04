@@ -1,0 +1,9 @@
+airport_name,iata_code,country_code,is_hub,note
+塔瓦乌,TWU,MY,0,航线清单缺 IATA 码，按标准补齐
+斗湖,BKI,MY,1,航线清单中斗湖的 IATA 码误写为 TWU（塔瓦乌的编码），按标准更正为 BKI
+薄荷岛,TBR,PH,0,航线清单缺 IATA 码，按标准补齐
+迪拜,DXB,AE,1,航线清单缺 IATA 码，按标准补齐
+夏尔·戴高乐,CDG,FR,1,航线清单缺 IATA 码，按标准补齐
+科伦坡,CMB,LK,1,航线清单缺 IATA 码，按标准补齐
+盐湖,YCU,CN,0,航线清单缺 IATA 码，按标准补齐
+澳门,MFM,CN,0,航线清单缺 IATA 码，按标准补齐

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# 本地产物
+var/
+*.db
+*.db-wal
+*.db-shm
+
+# 报告输出（保留目录占位，报告本体不入库）
+reports/*.json
+reports/*.md
+
+# 导出的样例数据（用 scripts/export_sample.py 重新生成）
+data/sample/
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store

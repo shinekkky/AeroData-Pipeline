@@ -1,5 +1,9 @@
 # AeroData Pipeline — 航空数据治理与数仓分层 ETL
 
+[![CI](https://github.com/shinekkky/AeroData-Pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/shinekkky/AeroData-Pipeline/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Tests](https://img.shields.io/badge/tests-127%20passed-brightgreen)
+
 > 把多源航班数据接进来，清洗成规范明细，沉淀成能直接分析的数据资产，
 > 并且对数据质量问题**可发现、可解释、可追溯**。
 
@@ -46,7 +50,7 @@ Playwright 采集脚本，写入 `asean_flights_table`）。
   │ CSV/JSON │                 ▼                     ▼                      ▼
   ├──────────┤          ┌─────────────┐      ┌──────────────┐      ┌────────────────┐
   │ 仿真源   │          │ dim_airport │      │ 数据质量规则 │      │   质量报告      │
-  └──────────┘          │ dim_airline │      │ 14 条规则    │      │ JSON + Markdown │
+  └──────────┘          │ dim_airline │      │ 15 条规则    │      │ JSON + Markdown │
                         │ dim_route   │      └──────────────┘      └────────────────┘
                         │ dim_airport_alias        │
                         └───────────────────────────┴──► dq_flight_anomaly
@@ -78,8 +82,8 @@ Playwright 采集脚本，写入 `asean_flights_table`）。
 
 - `data/reference/routes_daily.json` —— 采集器同款航线清单
 - `data/reference/airlines.csv` —— 航空公司标准编码表
-- `data/reference/airport_overrides.csv` —— **人工校��表**，修正源数据里的错误编码
-- `data/reference/airport_aliases.csv` —— 人工维护的别���
+- `data/reference/airport_overrides.csv` —— **人工校对表**，修正源数据里的错误编码
+- `data/reference/airport_aliases.csv` —— 人工维护的别名
 - `data/reference/countries.csv` —— 国家/地区 ISO-3166 映射
 
 ### 事实表
@@ -157,6 +161,7 @@ python -m pytest -q
 ```
 
 生成的质量报告在 `reports/`（JSON 给程序用，Markdown 给人看）。
+仓库内附一份真实运行输出示例：[`docs/sample_quality_report.md`](docs/sample_quality_report.md)。
 
 ### 换成真实采集源
 
@@ -229,7 +234,7 @@ AeroData Pipeline/
 │   │   ├── ods.py           ODS 落地
 │   │   └── dws.py           DWS 汇总（按日期重算）
 │   └── quality/
-│       ├── rules.py         14 条质量规则
+│       ├── rules.py         15 条质量规则
 │       └── report.py        质量报告（JSON + Markdown）
 ├── data/reference/          可版本化的参考数据
 ├── scripts/export_sample.py 导出 CSV / JSON 样例

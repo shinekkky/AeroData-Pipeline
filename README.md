@@ -167,11 +167,11 @@ python -m pytest -q
 
 ```bash
 # 第 0 步：先确认本机能连上采集器的库（只读探测，不写库、不打印口令）
-python scripts/_probe_db.py D:/Desktop/zkwg/jky-collection-program/settings/db_setting.json db_config
+python scripts/_probe_db.py /path/to/collector-project/settings/db_setting.json db_config
 
 # 第 1 步：直连采集器的 MySQL
 python -m aerodata.cli run --source mysql \
-  --settings-file D:/Desktop/zkwg/jky-collection-program/settings/db_setting.json \
+  --settings-file /path/to/collector-project/settings/db_setting.json \
   --table asean_flights_table
 
 # 或者：读取采集器导出的 CSV / JSON

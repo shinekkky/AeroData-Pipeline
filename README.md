@@ -7,6 +7,9 @@
 Playwright 采集脚本，写入 `asean_flights_table`）。
 本项目**不重复造采集轮子**，而是站在采集器下游，把原始数据加工成可用的数据资产。
 
+> 英文版**项目陈述（申请用文书）**：[`docs/PROJECT_STATEMENT.md`](docs/PROJECT_STATEMENT.md)
+> —— 含研究问题、方法、评估结果、局限与边界，可直接用于 DS/CS 方向的项目陈述或简历附件。
+
 ---
 
 ## 一、这个项目解决什么问题
